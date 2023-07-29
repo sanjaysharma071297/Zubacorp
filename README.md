@@ -1,12 +1,12 @@
 
 # ZaubaCorp Companies
 ### Introduction
-This script is designed to increase the coverage from the extraction.
+This script is designed to extract the company information from ZaubaCorp.
 
-To Increase the coverage we are using 4 diffrent type of filter and categorize companies based on their count. It employs four different filtering functions to group companies by various criteria. Depending on the count of companies, the script applies different filtering methods and stores the resulting Less comapny count URLs in a list.
+To Increase the coverage we are using 4 different type of filter and categorize companies based on their count. It employs four different filtering functions to group companies by various criteria. Depending on the count of companies, the script applies different filtering methods and stores the resulting Less comapny count URLs in a list.
 
 ### Prerequisites
-Before running the script, ensure you have the following installed:
+To execute the repository, we need to use the below libraries:
 
 ```bash
 Python (version 3.6 or higher)
