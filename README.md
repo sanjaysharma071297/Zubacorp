@@ -14,7 +14,7 @@ $ pip install beautifulsoup4==4.4.1
 $ pip install requests==2.25.1
 $ pip install pymongo==4.4.1
 $ pip install re
-$ pip install pip install logging
+$ pip install logging
 ```
 
 # How the Script Works
