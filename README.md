@@ -43,3 +43,6 @@ max_page_limit = 13333
 total_company_max_limit = record_per_page*max_page_limit
 ```
 From the less_url_list (list) python program will extract 4 data points from the table and if there are multiple pages are available it will go by the pagination too and extract the same data.
+
+#### Execution of script 
+python3 zaubacorp_scraper.py
