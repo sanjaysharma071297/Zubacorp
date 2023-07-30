@@ -42,6 +42,18 @@ max_page_limit = 13333
 ```bash
 total_company_max_limit = record_per_page*max_page_limit
 ```
+#### Coverage
+```base
+Companies incorporated in India : 2703942 Companies Found
+
+By Company Type = 539,328 (Excluded Private limited companies)
+Private limited companies limited with paid up capital  = 772,237(Excluded 0 - 1 Lakh)
+Private limited companies located in India,with having paidup of 0 - 1 lakh : 933,604 (excluded 10 to 25 years)
+Private limited companies located in India, involved diffrent section ,with vintage of 10 to 25 years and having paidup of 0 - 1 lakh :429,211
+
+coverage = ((539,328+772,237+933,604+429,211)/2703942)*100 = 98.90%
+```
+
 From the less_url_list (list) python program will extract 4 data points from the table and if there are multiple pages are available it will go by the pagination too and extract the same data.
 
 #### Execution of script 
